@@ -27,6 +27,7 @@ while game_on:
         input_state = screen.textinput(title=f"{num}/50 states correct", prompt="Type a state's name").title()
     except AttributeError:
         break
+
     if input_state in s_list:
         input_list.append(input_state)
         csv_state = csv_data_states[states == input_state]
@@ -41,6 +42,7 @@ while game_on:
         letter_turtle.write(input_state)
         num += 1
         if num == 50:
+            print("Congratulations! You have finished the game.")
             break
 
 
