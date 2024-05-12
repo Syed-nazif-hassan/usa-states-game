@@ -14,4 +14,6 @@
 - The "missed_names.csv" gets updated at the end of every session.
 - If you have correctly typed the names of all 50 states, the "missed_names.csv" file will be blank, as you would not have missed any names and the game will end.
 
+### Here is a picture of the game- 
+
 ![US state game's image](image/US%20states%20game.png)
